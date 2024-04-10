@@ -1,7 +1,3 @@
----
-marp: true
----
-
 # KernelCon CTF Notes
 
 The Final Scoreboard:
