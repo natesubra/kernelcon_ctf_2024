@@ -1,3 +1,7 @@
+---
+marp: true
+---
+
 # KernelCon CTF Notes
 
 The Final Scoreboard:
@@ -26,11 +30,11 @@ POC: @krbtgt
 
 Short Story: Trevor makes a LAN cable
 
-![Trevor Makes a LAN Cable](Screenshots\trevor_lan_cable.png)
+![Trevor Makes a LAN Cable](Screenshots/trevor_lan_cable.png)
 
-![Trevor](Screenshots\trevor_lan1.jpg)
+![Trevor](Screenshots/trevor_lan1.jpg)
 
-![Trevor](Screenshots\trevor_lan2.jpg)
+![Trevor](Screenshots/trevor_lan2.jpg)
 
 ### Badge 50-2 - "do pigs like silk"
 
@@ -41,11 +45,11 @@ POC: @krbtgt
 - Our first hint is that this is in the badge category
 - After inspecting the badge, something looks familiar...
 
-  ![Pigpen Cipher](Screenshots\pigpen_cipher.jpg)
+  ![Pigpen Cipher](Screenshots/pigpen_cipher.jpg)
 
 - Definitely looks like a cipher... Interneting -> Pigpen Cipher
 
-  ![Decrypted Pigpen](Screenshots\decrypted_pigpen.png)
+  ![Decrypted Pigpen](Screenshots/decrypted_pigpen.png)
 
 ### Badge 100-1 - "blinky blink"
 
@@ -72,7 +76,7 @@ POC: @krbtgt, @papa
 
 5. **Profit**
 
-![Morse Code Engineer](Screenshots\morse_code_engineer.png)
+![Morse Code Engineer](Screenshots/morse_code_engineer.png)
 
 ### Badge 100-2 - "criss cross"
 
@@ -80,7 +84,7 @@ POC: @krbtgt, @papa
 
 > this is a black pipe challenge. connect both head and remote. how is it connected? a normal cable would be: kernel {11-22-33-44-55-66-77-88}
 
-![criss cross](Screenshots\criss_cross.png)
+![criss cross](Screenshots/criss_cross.png)
 
 - Hint is on the badge itself: How many people know what a crossover cable is?
 - Connect the two ports w/ a crossover cable and decode the output
@@ -103,10 +107,10 @@ POC: @krbtgt, @papa
 [Badge 400 Video](Screenshots/Badge_400_Unsolved.mp4)
 
 - 4+ minutes of output, 8 lights
-- Idea(s)
-  - Extract frames from video: 7,866 frames !
-    - ->run through opencv
-    - ???
+- Extract frames from video == 7,866 frames (`ffmpeg -i thevideo -start_number 1 frame-%04d.png`)
+  - Problems:
+    - Not every frame is needed
+    - Not every frame with lights on has a clean transition (some frames have captured two sets of lights transitioning)
 
 ### Badge 500 - Goldilocks
 
@@ -117,7 +121,7 @@ POC: @krbtgt
 - Challenge involved plugging the badge into a special connector at the CTF table, badge needed to correctly modulate the hz
 - SolutionSolder a f\*ckton of resistors onto the badge to modulate a signal to a certain speed and retrieve a flag
 
-![le resistors](Screenshots\resistors.png)
+![le resistors](Screenshots/resistors.png)
 
 ![goldilocks solder closeup](Screenshots/badge_goldilocks_solder.jpg)
 
@@ -210,7 +214,7 @@ The challenge provided a windows executable ([files\forensics_250_time_travel\ti
 
 - Setting the VM clock worked initially, but then when executed the binary would ask the system clock to be frozen at a new epoch: `872838839` (aka one second before doomsday). Prior to checking this, it would calculate pi for a certain amount of iterations then check the clock:
 
-  ![timetravel freeze time](Screenshots\timetravel_freezetime.png)
+  ![timetravel freeze time](Screenshots/timetravel_freezetime.png)
 
 - Solution: Run app via wine and use `faketime` app in wine and used linux faketime to spoof system clock, offset time enough that it would account for any delay introduced by the pi calculation
 
@@ -237,13 +241,13 @@ POC: @papa
 - After some interneting: one can intercept Linux system calls using... [ptrace](https://man7.org/linux/man-pages/man2/ptrace.2.html)!
 - After (much) more interneting (and some help from GPT): [ptracer.c](files/forensics_ptrace/ptracer.c), which helped to identify which register we needed to modify to change the return of the `sysinfo` syscall: (tl;dr-> RDI)
 
-  ![ptracer](Screenshots\ptracer.png)
+  ![ptracer](Screenshots/ptracer.png)
 
 - The next logical step for any legit hacker?
 
   **Download more RAM ofc**: [ramdownloader.c](files/forensics_ptrace/ramdownloader.c)
 
-  ![alt text](Screenshots\ramdownloader.png)
+  ![alt text](Screenshots/ramdownloader.png)
 
 TL;DR: Download more RAM (and ptrace)
 
