@@ -1,0 +1,26 @@
+package main
+
+import (
+	"fmt" // Import the fmt package for formatting and printing
+	"math/big" // Import the big package for arbitrary-precision arithmetic
+	"math/rand" // Import the rand package for generating random numbers
+	"time" // Import the time package for time-based operations
+	"github.com/cloudflare/circl/sign/ed448" // Import the ed448 package from the CIRCL library for cryptographic operations
+)
+
+func main() {
+	// declare a variable to hold the time.now().UnixNano() value
+	var seedTime int64
+	// get the current time in nanoseconds
+	seedTime = time.Now().UnixNano()
+	rand.Seed(seedTime) // Initialize the random number generator with a seed based on the current time
+	randomNumber := rand.Intn(10000000) // Generate a random number between 0 and 9999999
+	var seed [ed448.SeedSize]byte // Declare a byte array to hold the seed, with size defined by the ed448 package
+	sb, _ := new(big.Int).SetString(fmt.Sprintf("%d", randomNumber), 10) // Convert the random number to a big.Int, ignoring error with _
+	sb.FillBytes(seed[:]) // Fill the seed array with bytes derived from the big.Int
+	key := ed448.NewKeyFromSeed(seed[:])
+	// print the seedTime value
+	fmt.Printf("%d\n", seedTime)
+	fmt.Printf("%x\n", seed) // Print the seed in hexadecimal format followed by a newline
+	fmt.Printf("%x", key[ed448.SeedSize:])
+}
