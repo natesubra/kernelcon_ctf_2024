@@ -108,7 +108,7 @@ POC: @krbtgt, @papa
     - Not every frame is needed
     - Not every frame with lights on has a clean transition (some frames have captured two sets of lights transitioning)
 
-### Badge 500 - Goldilocks
+### Badge 500 - "Goldilocks"
 
 POC: @krbtgt
 
@@ -127,7 +127,7 @@ POC: @krbtgt
 
 ## Crypto
 
-### Crypto 50 - cornc0rn
+### Crypto 50 - "cornc0rn"
 
 POC: @tlan
 
@@ -170,7 +170,7 @@ From_Hex('Auto')
 
 [CyberChef Deep Link](https://gchq.github.io/CyberChef/#recipe=Find_/_Replace(%7B'option':'Regex','string':'c0rn'%7D,'0',true,false,true,false)Find_/_Replace(%7B'option':'Regex','string':'corn'%7D,'1',true,false,true,false)From_Binary('Space',8)XOR(%7B'option':'Hex','string':'ff'%7D,'Standard',false)From_Base64('A-Za-z0-9%2B/%3D',true,false)From_Hex('Auto')&input=Y29ybmMwcm5jb3JuY29ybmMwcm5jMHJuYzBybmNvcm5jb3JuYzBybmMwcm5jb3JuYzBybmMwcm5jb3JuYzBybmNvcm5jMHJuY29ybmNvcm5jMHJuY29ybmNvcm5jMHJuY29ybmNvcm5jMHJuYzBybmNvcm5jb3JuYzBybmNvcm5jb3JuYzBybmNvcm5jb3JuYzBybmMwcm5jMHJuY29ybmNvcm5jMHJuY29ybmMwcm5jb3JuYzBybmNvcm5jb3JuY29ybmMwcm5jMHJuY29ybmNvcm5jb3JuYzBybmMwcm5jb3JuYzBybmMwcm5jMHJuYzBybmNvcm5jb3JuYzBybmNvcm5jMHJuY29ybmNvcm5jMHJuYzBybmMwcm5jb3JuY29ybmMwcm5jMHJuY29ybmMwcm5jMHJuY29ybmMwcm5jb3JuYzBybmNvcm5jMHJuY29ybmMwcm5jb3JuYzBybmNvcm5jb3JuYzBybmMwcm5jb3JuY29ybmMwcm5jb3JuY29ybmMwcm5jb3JuY29ybmMwcm5jMHJuYzBybmNvcm5jb3JuYzBybmNvcm5jMHJuY29ybmMwcm5jb3JuY29ybmNvcm5jMHJuY29ybmMwcm5jMHJuY29ybmMwcm5jb3JuY29ybmMwcm5jMHJuY29ybmMwcm5jb3JuYzBybmNvcm5jb3JuYzBybmNvcm5jb3JuYzBybmMwcm5jMHJuY29ybmNvcm5jb3JuYzBybmMwcm5jb3JuY29ybmMwcm5jb3JuY29ybmMwcm5jb3JuY29ybmMwcm5jb3JuY29ybmMwcm5jb3JuYzBybmMwcm5jMHJuYzBybmNvcm5jMHJuY29ybmNvcm5jMHJuY29ybmNvcm5jMHJuYzBybmMwcm5jMHJuY29ybmMwcm5jb3JuYzBybmNvcm5jMHJuY29ybmNvcm5jb3JuYzBybmNvcm5jb3JuYzBybmMwcm5jb3JuYzBybmNvcm5jb3JuYzBybmMwcm5jb3JuY29ybmNvcm5jMHJuY29ybmMwcm5jb3JuY29ybmMwcm5jMHJuY29ybmMwcm5jb3JuYzBybmMwcm5jMHJuYzBybmNvcm5jMHJuY29ybmNvcm5jMHJuYzBybmNvcm5jb3JuYzBybmMwcm5jMHJuY29ybmNvcm5jMHJuYzBybmNvcm5jb3JuYzBybmNvcm5jb3JuYzBybmNvcm5jb3JuYzBybmMwcm5jMHJuY29ybmNvcm5jMHJuY29ybmMwcm5jb3JuYzBybmNvcm5jb3JuY29ybmMwcm5jb3JuY29ybmMwcm5jMHJuY29ybmMwcm5jb3JuY29ybmMwcm5jMHJuY29ybmMwcm5jb3JuYzBybmNvcm5jMHJuY29ybmNvcm5jMHJuYzBybmNvcm5jMHJuY29ybmMwcm5jMHJuYzBybmMwcm5jb3JuYzBybmNvcm5jb3JuYzBybmNvcm5jb3JuY29ybmMwcm5jb3JuYzBybmNvcm5jMHJuYzBybmMwcm5jMHJuY29ybmMwcm5jb3JuY29ybmMwcm5jb3JuY29ybmMwcm5jMHJuYzBybmNvcm5jb3JuYzBybmMwcm5jMHJuYzBybmNvcm5jMHJuY29ybmNvcm5jMHJuY29ybmNvcm5jMHJuYzBybmNvcm5jMHJuY29ybmMwcm5jMHJuYzBybmMwcm5jb3JuYzBybmNvcm5jb3JuYzBybmNvcm5jb3JuYzBybmMwcm5jb3JuYzBybmNvcm5jMHJuYzBybmMwcm5jMHJuY29ybmMwcm5jb3JuY29ybmMwcm5jb3JuYzBybmNvcm5jb3JuY29ybmMwcm5jb3JuYzBybmMwcm5jMHJuYzBybmNvcm5jMHJuY29ybmNvcm5jMHJuY29ybmNvcm5jMHJuYzBybmMwcm5jMHJuY29ybmMwcm5jb3JuY29ybmNvcm5jMHJuY29ybmNvcm5jb3JuYzBybmNvcm5jb3JuYzBybmMwcm5jb3JuYzBybmNvcm5jb3JuYzBybmMwcm5jb3JuY29ybmMwcm5jb3JuY29ybmMwcm5jb3JuY29ybmMwcm5jMHJuYzBybmNvcm5jb3JuYzBybmMwcm5jb3JuYzBybmNvcm5jMHJuY29ybmNvcm5jMHJuY29ybmNvcm5jb3JuYzBybmNvcm5jMHJuY29ybmNvcm5jMHJuYzBybmNvcm5jb3JuYzBybmNvcm5jb3JuYzBybmNvcm5jb3JuYzBybmMwcm5jb3JuYzBybmNvcm5jMHJuY29ybmMwcm5jb3JuYzBybmNvcm5jb3JuY29ybmMwcm5jb3JuYzBybmMwcm5jb3JuY29ybmMwcm5jb3JuYzBybmMwcm5jMHJuYzBybmNvcm5jMHJuY29ybmNvcm5jMHJuY29ybmNvcm5jMHJuYzBybmNvcm5jMHJuY29ybmMwcm5jMHJuYzBybmMwcm5jb3JuYzBybmNvcm5jb3JuYzBybmMwcm5jb3JuY29ybmNvcm5jMHJuYzBybmNvcm5jMHJuYzBybmMwcm5jMHJuY29ybmMwcm5jb3JuY29ybmMwcm5jb3JuY29ybmMwcm5jMHJuYzBybmMwcm5jb3JuYzBybmNvcm5jb3JuY29ybmMwcm5jb3JuY29ybmNvcm5jMHJuY29ybmNvcm5jMHJuYzBybmNvcm5jMHJuY29ybmMwcm5jMHJuYzBybmMwcm5jb3JuY29ybmNvcm5jb3JuYzBybmNvcm5jb3JuYzBybmMwcm5jb3JuYzBybmNvcm5jMHJuYzBybmMwcm5jMHJuY29ybmMwcm5jb3JuY29ybmMwcm5jb3JuY29ybmNvcm5jb3JuY29ybmMwcm5jb3JuY29ybmMwcm5jMHJuY29ybmNvcm5jMHJuY29ybmNvcm5jMHJuY29ybmNvcm5jMHJuYzBybmNvcm5jMHJuY29ybmMwcm5jMHJuY29ybmMwcm5jb3JuYzBybmNvcm5jb3JuYzBybmNvcm5jb3JuYzBybmMwcm5jb3JuYzBybmNvcm5jb3JuYzBybmMwcm5jb3JuY29ybmMwcm5jb3JuY29ybmMwcm5jb3JuY29ybmMwcm5jMHJuYzBybmNvcm5jb3JuYzBybmMwcm5jb3JuYzBybmNvcm5jMHJuY29ybmNvcm5jMHJuY29ybmMwcm5jb3JuYzBybmNvcm5jMHJuY29ybmNvcm5jMHJuYzBybmNvcm5jb3JuYzBybmNvcm5jb3JuYzBybmNvcm5jb3JuYzBybmMwcm5jMHJuY29ybmNvcm5jMHJuYzBybmNvcm5jMHJuY29ybmMwcm5jb3JuY29ybmMwcm5jb3JuY29ybmMwcm5jMHJuY29ybmMwcm5jb3JuY29ybmMwcm5jMHJuY29ybmNvcm5jb3JuYzBybmNvcm5jMHJuY29ybmNvcm5jMHJuYzBybmNvcm5jMHJuY29ybmMwcm5jMHJuYzBybmMwcm5jb3JuYzBybmNvcm5jb3JuYzBybmMwcm5jb3JuY29ybmMwcm5jMHJuYzBybmNvcm5jMHJuYzBybmMwcm5jMHJuY29ybmMwcm5jb3JuY29ybmMwcm5jb3JuY29ybmMwcm5jMHJuYzBybmNvcm5jb3JuYzBybmNvcm5jb3JuY29ybmMwcm5jb3JuY29ybmNvcm5jMHJuY29ybmMwcm5jMHJuY29ybmNvcm5jMHJuY29ybmMwcm5jMHJuYzBybmMwcm5jb3JuY29ybmNvcm5jb3JuYzBybmNvcm5jb3JuYzBybmMwcm5jb3JuYzBybmNvcm5jMHJuYzBybmMwcm5jMHJuY29ybmMwcm5jb3JuY29ybmMwcm5jb3JuY29ybmMwcm5jb3JuY29ybmMwcm5jb3JuYzBybmMwcm5jMHJuYzBybmNvcm5jMHJuY29ybmNvcm5jMHJuY29ybmNvcm5jMHJuYzBybmMwcm5jb3JuY29ybmMwcm5jMHJuY29ybmMwcm5jb3JuYzBybmNvcm5jb3JuYzBybmNvcm5jb3JuYzBybmMwcm5jb3JuYzBybmNvcm5jMHJuYzBybmMwcm5jMHJuY29ybmNvcm5jb3JuY29ybmMwcm5jb3JuY29ybmMwcm5jMHJuY29ybmMwcm5jb3JuYzBybmMwcm5jMHJuYzBybmNvcm5jMHJuY29ybmNvcm5jMHJuYzBybmNvcm5jb3JuY29ybmMwcm5jMHJuY29ybmMwcm5jMHJuYzBybmMwcm5jb3JuYzBybmNvcm5jb3JuYzBybmNvcm5jb3JuYzBybmMwcm5jMHJuYzBybmNvcm5jMHJuY29ybmNvcm5jb3JuYzBybmNvcm5jb3JuY29ybmMwcm5jb3JuYzBybmMwcm5jb3JuY29ybmMwcm5jb3JuY29ybmMwcm5jMHJuY29ybmNvcm5jMHJuY29ybmNvcm5jMHJuY29ybmNvcm5jMHJuYzBybmMwcm5jb3JuY29ybmNvcm5jMHJuYzBybmNvcm5jb3JuYzBybmNvcm5jb3JuYzBybmNvcm5jMHJuY29ybmNvcm5jb3JuYzBybmNvcm5jb3JuYzBybmMwcm5jMHJuYzBybmNvcm5jMHJu&oeol=NEL)
 
-### Crypto 500 - Not Quite Hydra
+### Crypto 500 - "Not Quite Hydra"
 
 > [REDACTED] is a [REDACTED]-type information security puzzle developed by @ethanpinter as part Of Hydra.
 > All the information you need to slay this head is contained in this challenge's folder. 
@@ -186,7 +186,7 @@ Challenge can be found on [ethanpinter's GitHub](https://github.com/ethanpinter/
 
 ## Forensics
 
-### Forensics 100 - VOIP Capture
+### Forensics 100 - "VOIP Capture"
 
 POC: @krbtgt
 
@@ -196,7 +196,7 @@ POC: @krbtgt
 
 PCAP file -> extract wav file from RTP (wireshark-> telephony -> voip streams, right click -> analyze-> minimodem (default 300 baud) -> XOR extracted text with key found in RTP stream
 
-### Forensics 250-1 Time Travel
+### Forensics 250-1 - "Time Travel"
 
 POC: @papa
 
@@ -218,7 +218,7 @@ The challenge provided a windows executable ([files\forensics_250_time_travel\ti
 
 TL;DR: faketime + wine
 
-### Forensics 250-2 - Pay2Win
+### Forensics 250-2 - "Pay2Win"
 
 POC: @papa
 
@@ -247,7 +247,7 @@ POC: @papa
 
 TL;DR: Download more RAM (and ptrace)
 
-### Forensics 300-1 - What Up
+### Forensics 300-1 - "What Up"
 
 POC: @papa
 
@@ -266,7 +266,7 @@ POC: @papa
 
 ![whatup flag](Screenshots/whatup_flag.png)
 
-### Forensics 300-2 - What Processor?
+### Forensics 300-2 - "What Processor?"
 
 POC: @tlan
 
