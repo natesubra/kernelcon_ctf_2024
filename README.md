@@ -196,6 +196,14 @@ POC: @krbtgt
 
 PCAP file -> extract wav file from RTP (wireshark-> telephony -> voip streams, right click -> analyze-> minimodem (default 300 baud) -> XOR extracted text with key found in RTP stream
 
+![VOIP call in Wireshark](Screenshots/KC-voip-call-in-wireshark.png)
+
+![VOIP calls](Screenshots/KC-voip-calls.png)
+
+![Decoding data using Minimodem](Screenshots/KC-voip-wav-decode-minimodem.png)
+
+![Decoding the data with XOR bruteforcing](Screenshots/KC-voip-data-decode-XOR-bruteforce.png)
+
 ### Forensics 250-1 - "Time Travel"
 
 POC: @papa
@@ -320,6 +328,8 @@ POC: @krbtgt
 
 GPTerminator (APK ones)
 
+![APK decompiled with APK tool and strings value](Screenshots/KC-APK-strings.png)
+
 ### Misc 200 - "Skynet hidden in plain sight"
 
 POC: @krbtgt
@@ -329,6 +339,8 @@ POC: @krbtgt
 APK + image found
 APERISOLVE - Stego Image Solver
 - Ran against image found in APK
+
+![Flag hidden in image and recovered with zsteg](Screenshots/KC-APK-hidden-flag-zsteg.png)
 
 ### Misc 300 - "AI Crossword"
 
@@ -425,6 +437,8 @@ POC: @krbtgt
 
 ghidra, flags in strings
 
+![WOPR Strings in Ghidra](Screenshots/KC-WOPR-ghidra-strings.png)
+
 ### Reversing 50-2 - "T001 - Skynet Terminal Program"
 
 POC: @krbtgt
@@ -443,6 +457,8 @@ File:
 
 Flag was in java variable, jdgui (or jadx)
 
+![Flag extracted with using JD GUI](Screenshots/KC-application-insights-jd-gui.png)
+
 ### Reversing 150-1 - "SkyNetV1"
 
 > welcome to skynet vl.O. this experimental progrAm was deSigned to handle every day tactical tasks By the military. REFER to thE Newly created referenCe manual E-sn0010. SYSTEM INTERRUPTION........
@@ -454,6 +470,8 @@ Flag was in java variable, jdgui (or jadx)
 **Unsolved by our team**
 
 Per other teams, Ghidra -> Flagbuilder function
+
+![Example of Ghidra showing flag builder func](Screenshots/KC-SkyNetV1-unsolve-ghidra-func.png)
 
 ### Reversing 150-2 - "Agnostic"
 
