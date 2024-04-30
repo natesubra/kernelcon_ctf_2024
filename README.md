@@ -145,17 +145,29 @@ POC: @tlan
    010011100110110101001001001100100100111001010100011000110111100101001110011011010101010100110010010011100101010001011010011010100100111000110010010010010111101001001111010101000100110100110001010011010111101001100111001100100100111001010100010011010011010101001101011110100100010101111010010011100111101001001101011110100100110101111010010100010111101001001111010001000100110100110010010011100110101001000101001100100100110101010100010110010111101001001101011110100110001101111010010011110100010001001101011110000100110101111010010000010011001001001101011010100100110100110010010011100110101001010101001100100100111001101010010011010011000101001101011110100110011101111010010011100100010001011001011110000100110101111010010010010111101001001110011010100100110101111000010011010111101001100011011110100100111101000100010110010011001001001110001100100101000100111101
    ```
 
-1. Output didn't look familiar so XOR'd the output by 1 to check "c0rn" being 1 and "corn" being 0.
+![cornc0rn replace with ones and zeros](Screenshots/cornc0rn-1-replace-corns-with-ones-and-zeros.png)
+
+2. Used "From Binary" to decode the ones and zeros.
+
+![cornc0rn from binary](Screenshots/cornc0rn-2-from-binary.png)
+
+3. Output didn't look familiar so XOR'd the output by 1, prior to performing "From Binary", to check "c0rn" being 1 and "corn" being 0.
 
    `NmI2NTcyNmU2NTZjN2IzOTM1Mzg2NTM5MzEzNzMzMzQzODM2NjE2MTYzMzczODMxMzA2MjM2NjU2NjM1MzgzNDYxMzIzNjMxMzczODY2N2Q=`
+   
+![cornc0rn swap ones and zeros](Screenshots/cornc0rn-3-xor-before-from-binary-to-swap-ones-and-zeros.png)
 
-2. Output appears to be Base64. Performed Base64 decode.
+4. Output appears to be Base64. Performed Base64 decode.
 
    `6b65726e656c7b39353865393137333438366161633738313062366566353834613236313738667d`
+   
+![cornc0rn swap ones and zeros](Screenshots/cornc0rn-4-from-base64.png)
 
-3. Output appears to be hex. Decoded from hex.
+5. Output appears to be hex. Decoded from hex.
 
    `kernel{958e9173486aac7810b6ef584a26178f}`
+   
+![cornc0rn swap ones and zeros](Screenshots/cornc0rn-5-from-hex.png)
 
 CyberChef Recipe:
 
@@ -280,27 +292,33 @@ POC: @tlan
 
 > Guess I'll start a fab.
 
-1. Ran the executable on a Windows VM.
+1. Running the executable on a Windows VM presented a message stating that the processor name did not contain the text "skynet".
 
    ```text
    C:\Users\student\Downloads>whatprocessor.exe
    Your processor name "12th Gen Intel(R) Core(TM) i7-12650H" does not contain "skynet"
    ```
+   
+![whatprocessor.exe processor name does not contain skynet](Screenshots/whatprocessor-1-not-skynet.png)
 
-2. Research how to change the name of a processor. Google search "change cpu name vmware".
+2. Performed research on how to change the name of a processor in a VMware virtual machine by Googling "change cpu name vmware". Came across this site:
 
    `https://www.reddit.com/r/vmware/comments/cn1tkq/is_it_possible_to_change_the_cpu_name_in_vmware/`
 
-3. Took a Windows VMware VM's vmx file and added the following line to change the name of the processor: 
+3. Following what was mentioned on Reddit, edited the virtual machine's vmx file using Notepad and added the following line: 
 
    `cpuid.brandstring = "skynet"`
+   
+![whatprocessor.exe configure vmx file](Screenshots/whatprocessor-2-configure-vmx-file.png)
 
-4. Executed the executable again.
+4. Rebooted the virtual machine and ran the executable again.
 
    ```text
    C:\Users\student\Downloads>whatprocessor.exe
    kernel{032e861f1ed7a598dabdbc519e8d25ad}
    ```
+   
+![whatprocessor.exe processor name contains skynet](Screenshots/whatprocessor-3-is-skynet.png)
 
 ## Misc
 
