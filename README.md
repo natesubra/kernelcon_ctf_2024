@@ -46,7 +46,7 @@
     - [Web 100-1 - "I'll be back"](#web-100-1---ill-be-back)
     - [Web 100-2 - "SkyNet Program Archives - T800"](#web-100-2---skynet-program-archives---t800)
     - [Web 100-3 - "Kids these days have it so easy"](#web-100-3---kids-these-days-have-it-so-easy)
-    - [Web 100-4 (Gizmo)](#web-100-4-gizmo)
+    - [Web 100-4 - "Gizmo"](#web-100-4---gizmo)
     - [Web 100-5 - "catch me if you can"](#web-100-5---catch-me-if-you-can)
     - [Web 150 - "with great power comes great responsibility"](#web-150---with-great-power-comes-great-responsibility)
     - [Web 200 - "It's about to get local"](#web-200---its-about-to-get-local)
@@ -608,7 +608,7 @@ POC: @Mayor
 
 zerogpt, needed to write an essay that passwed an "not written by AI check". told it to write essay then randomize words
 
-### Web 100-4 (Gizmo)
+### Web 100-4 - "Gizmo"
 
 POC: @Mayor
 
