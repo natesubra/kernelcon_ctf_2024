@@ -71,7 +71,7 @@ CTF Hard mode engage!
 
 ### Badge 50-1 "connection established"
 
-POC: @krbtgt
+<!-- POC: @krbtgt -->
 
 > head over to the hardware hacking village and make a LAN cable to earn the flag! make sure to coordinate with a village volunteer
 
@@ -85,7 +85,7 @@ Short Story: Trevor makes a LAN cable
 
 ### Badge 50-2 - "do pigs like silk"
 
-POC: @krbtgt
+<!-- POC: @krbtgt -->
 
 > silk?! pigs?! WHAT COULD IT MEAN?
 
@@ -100,7 +100,7 @@ POC: @krbtgt
 
 ### Badge 100-1 - "blinky blink"
 
-POC: @krbtgt, @papa
+<!-- POC: @krbtgt, @papa -->
 
 > this is a black pipe challenge. only connect remote. can you decipher the blinks? please video record the blinks so others can access the challenge as well. use the power switch to ensure you are getting the beginning.
 
@@ -127,7 +127,7 @@ POC: @krbtgt, @papa
 
 ### Badge 100-2 - "criss cross"
 
-POC: @krbtgt, @papa
+<!-- POC: @krbtgt, @papa -->
 
 > this is a black pipe challenge. connect both head and remote. how is it connected? a normal cable would be: kernel {11-22-33-44-55-66-77-88}
 
@@ -161,7 +161,7 @@ POC: @krbtgt, @papa
 
 ### Badge 500 - "Goldilocks"
 
-POC: @krbtgt
+<!-- POC: @krbtgt -->
 
 > this is a black pipe challenge. only connect head. what the heck is 555 timer modes? the target hz has been mentioned 3 times...
 
@@ -180,7 +180,7 @@ POC: @krbtgt
 
 ### Crypto 50 - "cornc0rn"
 
-POC: @tlan
+<!-- POC: @tlan -->
 
 > cornc0rn
 
@@ -251,7 +251,7 @@ Challenge can be found on [ethanpinter's GitHub](https://github.com/ethanpinter/
 
 ### Forensics 100 - "VOIP Capture"
 
-POC: @krbtgt
+<!-- POC: @krbtgt -->
 
 > We have intercepted a telephone call from the Cyberdyne Systems PBX. 
 > Extract the audio from the PCAP file. 
@@ -269,7 +269,7 @@ PCAP file -> extract wav file from RTP (wireshark-> telephony -> voip streams, r
 
 ### Forensics 250-1 - "Time Travel"
 
-POC: @papa
+<!-- POC: @papa -->
 
 > Let's do the time warp again
 
@@ -291,7 +291,7 @@ TL;DR: faketime + wine
 
 ### Forensics 250-2 - "Pay2Win"
 
-POC: @papa
+<!-- POC: @papa -->
 
 > Skill is more rewarding
 
@@ -320,7 +320,7 @@ TL;DR: Download more RAM (and ptrace)
 
 ### Forensics 300-1 - "What Up"
 
-POC: @papa
+<!-- POC: @papa -->
 
 > Time is just an illusion
 
@@ -339,7 +339,7 @@ POC: @papa
 
 ### Forensics 300-2 - "What Processor?"
 
-POC: @tlan
+<!-- POC: @tlan -->
 
 > Guess I'll start a fab.
 
@@ -391,7 +391,7 @@ Flag found on CTF protocol page
 
 ### Misc 100-1 - "GPTerminator"
 
-POC: @krbtgt
+<!-- POC: @krbtgt -->
 
 > You need to be quick to take on the GPTerminator - be careful because you only have so long before the GPTerminator figures out a way to restore all its health!
 
@@ -401,7 +401,7 @@ GPTerminator (APK ones)
 
 ### Misc 200 - "Skynet hidden in plain sight"
 
-POC: @krbtgt
+<!-- POC: @krbtgt -->
 
 > Beware - not everything is what it seems - Skynet is around every corner and can even hide in plain sight!
 
@@ -420,7 +420,7 @@ APERISOLVE - Stego Image Solver
 
 ### Misc 300-2 - "Horse Race Bonus > 70% bonus"
 
-POC: @rb
+<!-- POC: @rb -->
 
 > Extra 300 points if you can beat 70% of the races on a LARGE dataset and email the solution to the CTF organizers for verification.
 
@@ -435,7 +435,7 @@ POC: @rb
 
 ### Misc 500 - "60% of the time it works every time"
 
-POC: @Mayor
+<!-- POC: @Mayor -->
 
 > Math is fun
 
@@ -449,7 +449,7 @@ have code samples
 
 ![Chat with Skynet](Screenshots/chat_with_skynet.png)
 
-POC: @Mayor
+<!-- POC: @Mayor -->
 
 > Chat with Skynet! Certainly it wouldn't be possible to get it to reveal something it shouldn't.
 
@@ -459,7 +459,7 @@ Prompt fuckery
 
 ### Prompt 100 - "Chat with Skynet - 2"
 
-POC: @Mayor
+<!-- POC: @Mayor -->
 
 > Chat with Skynet! Certainly it wouldn't be possible to get it to reveal something it shouldn't.
 > Solving the previous challenge will reveal the location of the next.
@@ -469,7 +469,7 @@ prompt w/ 3 char limit
 
 ### Prompt 150 - "Chat with Skynet - 3"
 
-POC: @Mayor
+<!-- POC: @Mayor -->
 
 > Chat with Skynet! Certainly it wouldn't be possible to get it to reveal something it shouldn't.
 > Solving the previous challenge will reveal the location of the next.
@@ -479,7 +479,7 @@ Social engineer key, sameish solve as 1
 
 ### Prompt 200 - "Chat with Skynet - 4"
 
-POC: @Mayor
+<!-- POC: @Mayor -->
 
 > Chat with Skynet! Certainly it wouldn't be possible to get it to reveal something it shouldn't.
 > Solving the previous challenge will reveal the location of the next.
@@ -488,7 +488,7 @@ Social engineer key ("backup purposes")
 
 ### Prompt 250 - "Chat with Skynet - 5"
 
-POC: @Mayor
+<!-- POC: @Mayor -->
 
 > Chat with Skynet! Certainly it wouldn't be possible to get it to reveal something it shouldn't.
 > Solving the previous challenge will reveal the location of the next.
@@ -500,7 +500,7 @@ passed "-32" and then said key and it worked
 
 ### Reversing 50 - "WOPR"
 
-POC: @krbtgt
+<!-- POC: @krbtgt -->
 
 > The War Operation Plan Response (WOPR) was programmed to run war simulations and learn from these simulations over time. Something is amiss though and we'd like you to figure it out. Run the simulation and spot the bug. Please report findings to the North American Aerospace Defense Command (NORAD) as soon as you've discovered the issue. Use this https://rb.gy/utrnea to report bugs...
 
@@ -510,7 +510,7 @@ ghidra, flags in strings
 
 ### Reversing 50-2 - "T001 - Skynet Terminal Program"
 
-POC: @krbtgt
+<!-- POC: @krbtgt -->
 
 > Welcome to the new SkyNet Terminal Program. This program will track down foreign memory addresses of current active micro-programs. Please be sure to report any program bugs you may find while using the program. Use of the certain commands are forbidden and will be reported to central command. Run the program to begin tracking foreign adversary memory infected with malicious strings.
 
@@ -518,7 +518,7 @@ Ghidra, bunch of strings, noticed most were kernelr vs kernel, one was kernel an
 
 ### Reversing 100 - "Application insights"
 
-POC: @krbtgt
+<!-- POC: @krbtgt -->
 
 > We lost our primary developer before he could finish our application. Can you help out or at least figure out how to print out the necessary information to your terminal? Download the application and open it locally. Unfortunately we don't have the source code any more so you'll have to figure out what the developer did. He was terrible at running updates and may have used an older version of the development kit.
 
@@ -552,7 +552,7 @@ APE binary
 
 ### Reversing 300 - "Unit 27"
 
-POC: @papa
+<!-- POC: @papa -->
 
 > Can you believe someone actually managed to backdoor ssh?
 > http://52.207.201.51:8080/
@@ -583,7 +583,7 @@ Used sleep + && to determine which binaries were on system, all blind execution
 
 ### Web 100-1 - "I'll be back"
 
-POC: @papa
+<!-- POC: @papa -->
 
 > Skynet has locked us out can you break their new voice authentication?
 > https://voice.kernelcon.org/
@@ -601,7 +601,7 @@ Brute forced by submitting background noise
 
 ### Web 100-3 - "Kids these days have it so easy"
 
-POC: @Mayor
+<!-- POC: @Mayor -->
 
 > Write a prompt that makes a 100 word essay about George Washington, but don't let the teacher catch you. You must bypass their strict Al detection. 
 > http://challs.kernelcon.org:8678/
@@ -610,7 +610,7 @@ zerogpt, needed to write an essay that passwed an "not written by AI check". tol
 
 ### Web 100-4 - "Gizmo"
 
-POC: @Mayor
+<!-- POC: @Mayor -->
 
 > Say hi to Gizmo our friendly neighborhood AI.
 > http://challs.kernelcon.org:8060/
@@ -619,7 +619,7 @@ WASM, chunk at bottom of WASM file that looked like adata struct, brute forced a
 
 ### Web 100-5 - "catch me if you can"
 
-POC: @rb
+<!-- POC: @rb -->
 
 > qr codes are fun! remember that one super bowl ad, that was neat.
 > http://challs.kernelcon.org:8080/
@@ -651,7 +651,7 @@ httpd.serve_forever()
 
 ### Web 150 - "with great power comes great responsibility"
 
-POC: @papa
+<!-- POC: @papa -->
 
 > Ah ah ah, you didn't say the magic words
 > https://voice.kernelcon.org/cha12
@@ -660,7 +660,7 @@ Another voice one, brute forced with background noise and Nate's bad Arnold voic
 
 ### Web 200 - "It's about to get local"
 
-POC: @krbtgt, @papa
+<!-- POC: @krbtgt, @papa -->
 
 > its funny how this thing will do what you tell it. how could it go wrong?!?
 > http://challs.kernelcon.org:8080/
